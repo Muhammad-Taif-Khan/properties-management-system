@@ -1,0 +1,25 @@
+
+[
+  {
+    "name": "Dashboard",
+    "icon": "SpaceDashboardOutlined",
+    "link": "/"
+  },
+  {
+    "name": "Properties",
+    "icon": "HomeWorkOutlined",
+    "link": "/properties"
+
+  },
+  {
+    "name": "Tenants",
+    "icon": "PersonOutlined",
+    "link": "/tenants"
+
+  },
+  {
+    "name": "Settings",
+    "icon": "SettingsOutlinedIcon",
+    "link": "/settings"
+  }
+]
