@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <Layout style={{
            
-            height: "100vh",
+            minHeight: "100vh",
 
           }}>
         <Layout.Sider
@@ -19,7 +19,6 @@ const Home = () => {
           style={{
             overflow: "auto",
             height: "100%",
-            
             position: 'fixed',
           }}
           collapsible

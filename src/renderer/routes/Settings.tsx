@@ -1,6 +1,6 @@
 import { CheckCard } from "@ant-design/pro-components";
 import PageMetadataHeader from "../components/layout/page-header/PageMetadataHeader";
-import { Divider, Space, Typography, theme } from "antd";
+import { Divider, Space, Typography } from "antd";
 import { getLocalStorageItem, setLocalStorageItem } from "../utils/localStorage";
 const { Text } = Typography;
 
@@ -25,7 +25,9 @@ const Settings = ({setAppTheme}: SettingsProps): JSX.Element => {
  
   return (
     <>
-      <PageMetadataHeader pageName={"Settings"} />
+      <PageMetadataHeader pageName={"Settings"} 
+      pageDescription="Set all your preferences and customize app in one place"
+      />
       <Divider  orientation={"left"}>Appearance</Divider>
       <Space direction="vertical" size={"large"}>
         <SectionDescription

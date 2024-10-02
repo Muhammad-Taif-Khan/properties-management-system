@@ -6,10 +6,10 @@ import Properties from "./routes/Properties";
 import Tenants from "./routes/Tenants";
 import Settings from "./routes/Settings";
 import { useState } from "react";
-import { ConfigProvider, theme } from "antd";
+import { ConfigProvider,  } from "antd";
 import { getLocalStorageItem } from "./utils/localStorage";
 import { setThemeConfig } from "./utils/themeConfig";
-
+import enUS from 'antd/lib/locale/en_US';
 
 const App = () => {
 
@@ -18,6 +18,7 @@ const App = () => {
   return (
     <ConfigProvider
             theme={setThemeConfig(appTheme)}
+            locale={enUS}
             >
     <Routes>
       <Route element={<Home />}>
